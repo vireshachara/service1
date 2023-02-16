@@ -1,0 +1,16 @@
+<div>
+   <div class="container1">
+      <input type="text" class="three"placeholder="UserName" [(ngModel)]="name">
+      <select class="four" [(ngModel)]="status">
+         <option value="active">Active</option>
+         <option value="In-active">In-Active</option>
+      </select>
+      <button class="five" (click)="addUser()">Add User</button>
+   </div>
+</div>
+<div>
+   <div class="container1" *ngFor="let users of users">
+      <div class="one">{{users.name}}</div>
+      <div class="two">{{users.status}}</div>
+   </div>
+</div>

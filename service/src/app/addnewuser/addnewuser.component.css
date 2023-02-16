@@ -1,0 +1,29 @@
+.one{
+    width: 60%;
+    background-color: rgba(213, 226, 33, 0.765);
+    padding: 10px;
+    text-align: center;
+}
+.two{
+    width: 40%;
+    background-color: rgb(43, 226, 49);
+    padding: 10px;
+    text-align: center;
+}
+.container1 {
+    display: flex ;
+    margin: 10px;
+}
+.three {
+    width:58%;
+    padding: 5px;
+}
+.four {
+    width:20%
+}
+.five {
+    width: 20%;
+    background-color: rgb(76, 76, 217);
+    color: white;
+    font-weight:bold;
+}
